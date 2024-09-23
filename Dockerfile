@@ -1,6 +1,4 @@
 # frontend/Dockerfile
-FROM httpd:alpine
-
-COPY ./static/ /usr/local/apache2/htdocs/
-
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
 EXPOSE 8080
