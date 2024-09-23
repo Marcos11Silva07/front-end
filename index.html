@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofre Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cofre Online</h1>
+        <form id="add-item-form">
+            <input type="number" id="value" placeholder="Valor da Nota (R$)" required>
+            <button type="submit">Adicionar Nota</button>
+        </form>
+        <h2>Total no Cofre: R$ <span id="total-value">0.00</span></h2>
+        <div id="vault-items"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
